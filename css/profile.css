@@ -88,51 +88,25 @@ html {
         main {
             justify-content: space-between;
             display: flex;
-        }
-
-        .menuimg {
-            justify-content: space-around;
-            flex-wrap: wrap;
-            display: flex;
-            font-size: 2px;
-            width: 30px;
-        }
-
-        .assorti {
             flex-direction: column;
-            display: flex;
-            align-items: center;
-            margin: 1px;
-            height: 15px;
-            width: 12px;
         }
 
-        .assorti img {
-            width: 12px;
-            height: 12px;
-            object-fit: cover;
+        main img {
+            border: 1px solid #b235bc;
+            margin: 1px auto;
         }
-
-        .menu {
-            width: max-content;
-            padding-bottom: 15px;
-            flex-direction: column;
-            display: flex;
-            border-right: 1px solid #b235bc;
-        }
-
-        .menu a{
-            text-decoration: none;
-            color: #b235bc;
-            padding: 1px;
+        .info p {
+            text-align: center;
             font-size: 3px;
-        }
-
-        .menu a:hover{
             background-color: #b235bc;
             color: white;
+            padding: 1px;
+            max-width: 40px;
+            overflow: hidden;
         }
-
+        .info {
+            margin: 0 auto;
+        }
 
         footer {
             width: 50px;
