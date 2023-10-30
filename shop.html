@@ -10,38 +10,29 @@
 
 <body>
 
-  <!-- !!!Practice site!!! -->
-
-  <header>
-    <img src="images/logo.png" alt="ArmNOM">
-
-    <div class="dropdown">
-      <button class="dropbtn">Меню</button>
-      <div class="dropdown-content">
-        <a href="profile.html">Профиль</a>
-        <a href="history.html">Заказы</a>
-        <a href="index.html">Главная</a>
-      </div>
-    </div>
-  </header>
+  <div id="header"></div>
 
   <main>
 
     <img src="img/dolma4.png" alt="Иконка" width="30%">
 
     <div class="info">
-        <p style="color: green;">Текущий заказ</p>
-    <p>Долма из помидоров</p>
-    <p>Колличество: 5</p>
-    <p>Цена: 350</p>
+      <p style="color: green;">Текущий заказ</p>
+      <p>Долма из помидоров</p>
+      <p>Колличество: 5</p>
+      <p>Цена: 350</p>
     </div>
 
 
   </main>
 
-  <footer>
-    <a href="about.html">О нас</a>
-  </footer>
+  <div id="footer"></div>
+
+  <!-- Подгрузка header и footer -->
+  <script src="https://code.jquery.com/jquery-3.3.1.js">
+  </script>
+  <script src="js/header_footer.js"></script>
+  <!-- Конец подгрузки header и footer -->
 
 </body>
 

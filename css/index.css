@@ -16,75 +16,6 @@ html {
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         }
 
-        header {
-            width: 50px;
-            height: 8px;
-            background-color: #b235bc;
-            justify-content: space-between;
-            display: flex;
-        }
-
-        header img {
-            width: 40%;
-            margin: 2px;
-        }
-
-        /* Кнопка выпадающего списка */
-        .dropbtn {
-            position: relative;
-            top: -12px;
-            right: 3px;
-            background-color: #b235bc;
-            color: rgb(255, 255, 255);
-            padding: 1px;
-            border: none;
-            font-size: 4px;
-            min-width: 15px;
-        }
-
-        /* Контейнер <div> - необходим для размещения выпадающего содержимого */
-        .dropdown {
-            position: relative;
-            display: inline-block;
-        }
-
-        /* Выпадающее содержимое (скрыто по умолчанию) */
-        .dropdown-content {
-            display: none;
-            position: absolute;
-            background-color: #b235bc;
-            min-width: max-content;
-            z-index: 1;
-        }
-
-        /* Ссылки внутри выпадающего списка */
-        .dropdown-content a {
-            color: rgb(255, 255, 255);
-            padding: 1px 1px;
-            text-decoration: none;
-            display: block;
-            font-size: 3px;
-        }
-
-        /* Изменение цвета выпадающих ссылок при наведении курсора */
-        .dropdown-content a:hover {
-            background-color: #ffffff;
-            color: #b235bc;
-        }
-
-        /* Показать выпадающее меню при наведении курсора */
-        .dropdown:hover .dropdown-content {
-            position: relative;
-            top: -15px;
-            right: 3px;
-            display: block;
-        }
-
-        /* Изменение цвета фона кнопки раскрывающегося списка при отображении содержимого раскрывающегося списка */
-        .dropdown:hover .dropbtn {
-            color: #ffffff;
-        }
-
         main {
             justify-content: space-between;
             display: flex;
@@ -133,22 +64,5 @@ html {
             color: white;
         }
 
-
-        footer {
-            width: 50px;
-            height: 5px;
-            background-color: #b235bc;
-            position: fixed;
-            bottom: 0;
-        }
-
-        footer a {
-            text-decoration: none;
-            color: #ffffff;
-            font-size: 3px;
-            position: fixed;
-            bottom: 0;
-            left: 22px;
-        }
     }
 }

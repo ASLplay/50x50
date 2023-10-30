@@ -10,20 +10,28 @@
 
 <body>
 
-  <!-- !!!Practice site!!! -->
+  <!-- RU - версия
+  ЧЕЛЛЕНДЖ: СОЗДАТЬ САЙТ РАЗМЕРОМ 50 НА 50 ПИКСЕЛЕЙ
+  ОСОБЕННОСТИ ЧЕЛЛЕНДЖА:
+  1) САЙТ НЕ ДОЛЖЕН ИМЕТЬ НИКАКОЙ ПРОКРУТКИ
+  2) САЙТ ДОЛЖЕН ИМЕТЬ ХОТЬ КАКОЙ-ТО ФУНКЦИОНАЛ
+  3) САЙТ ДОЛЖЕН БЫТЬ ВИДЕН ТОЛЬКО В РАЗРЕШЕНИИ 50 НА 50 ПИКСЕЛЕЙ
+  4) САЙТ ДОЛЖЕН ИМЕТЬ УДОБНЫЙ ДИЗАЙН
+  5) ЗАПРЕЩЕНО ИСПОЛЬЗОВАТЬ Bluestrap
+  ТЕМА САЙТА: ЛЮБАЯ -->
 
-  <header>
-    <img src="images/logo.png" alt="ArmNOM">
+  <!-- EN - version
+   CHALLENGE: CREATE A SITE SIZED 50 BY 50 PIXELS
+   CHALLENGE FEATURES:
+   1) THE SITE SHOULD NOT HAVE ANY SCROLLING
+   2) THE SITE MUST HAVE AT LEAST SOME FUNCTIONALITY
+   3) THE SITE SHOULD ONLY BE VISIBLE IN A RESOLUTION OF 50 BY 50 PIXELS
+   4) THE SITE SHOULD HAVE A USER-friendly DESIGN
+   5) DO NOT USE Bluestrap
+   SITE TOPIC: ANY -->
 
-    <div class="dropdown">
-      <button class="dropbtn">Меню</button>
-      <div class="dropdown-content">
-        <a href="profile.html">Профиль</a>
-        <a href="shop.html">Корзина</a>
-        <a href="history.html">Заказы</a>
-      </div>
-    </div>
-  </header>
+  <!-- Хэдр -->
+  <div id="header"></div>
 
   <main>
 
@@ -32,30 +40,34 @@
       <a href="page2.html">Сухофрукты</a>
       <a href="page3.html">Лаваш</a>
       <a href="page4.html">Долма</a>
-  </div>
+    </div>
 
     <div class="menuimg">
-      <div class="assorti">      
+      <div class="assorti">
         <img src="images/pahlava.png" alt="Пахлава" width="30%"> Пахлава
       </div>
 
-      <div class="assorti">      
+      <div class="assorti">
         <img src="images/fruit.png" alt="Сухофрукты" width="30%"> Сухофрукты
       </div>
 
-      <div class="assorti">      
+      <div class="assorti">
         <img src="images/lavash.png" alt="Лаваш" width="30%"> Лаваш
       </div>
 
-      <div class="assorti">      
+      <div class="assorti">
         <img src="img/dolma1.png" alt="Долма" width="30%"> Долма
       </div>
     </div>
   </main>
 
-  <footer>
-    <a href="about.html">О нас</a>
-  </footer>
+  <div id="footer"></div>
+
+  <!-- Подгрузка header и footer -->
+  <script src="https://code.jquery.com/jquery-3.3.1.js">
+  </script>
+  <script src="js/header_footer.js"></script>
+  <!-- Конец подгрузки header и footer -->
 
 </body>
 
